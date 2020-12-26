@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+:root {
+  --blue: #1e90ff;
+  --white: rgba(255, 255, 255, 0.87);
+  --dark-bg: #121212;
+  --dark-container: #424242;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.light-mode {
+  background: #fafafa;
+  color: var(--black);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body, a, p {
+  font-family: "SF Pro Text", "San Francisco Text", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-bottom: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+body {
+  background: var(--dark-bg);
+  color: var(--white);
+}
+
+a {
+  color: var(--white);
+  font-weight: 500;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4em;
+}
+
+.blurb-container {
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.blurb {
+} 
+
+.exp-date {
+  width: 180px;
+  margin-left: 36px;
+  float: right;
+  text-align: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.photo-container {
+  border-radius: 2rem;
+  background: var(--dark-container);
+  transform: translate3d(1ch, 0.1in, 0em);
+  transition: transform 0.5s;
+}
+
+.photo-container:hover {
+  transform: translate3d(3ch, 0.1in, 0em);
+}
+
+
+.me {
+  border-radius: 2rem;
+  width: 20rem;
+  transform: translate3d(2ch, 0.2in, 0em);
+  transition: transform 0.5s;
+}
+
+.me:hover {
+  transform: translate3d(-2ch, 0.2in, 0em);
 }
