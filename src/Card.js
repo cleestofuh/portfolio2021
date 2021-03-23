@@ -24,7 +24,7 @@ class Card extends Component {
       } = this;
   
       return (
-        <a class="card" href={href}>
+        <a class="card" href={href} target="_blank" rel="noreferrer">
             <img src={image} alt={altText} className="card-img"/>
             <div class="card-content">
                 <h6 className="card-type">{projectType}</h6>

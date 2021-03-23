@@ -1,8 +1,10 @@
 import './App.css';
 import Header from './Header';
 import me from './images/me.png';
+import wwgfbt from './images/wwgfbt.svg'
 import frog from './images/frog.jpg';
 import Tabs from './Tabs';
+import Card from './Card'
 
 
 function App() {
@@ -15,6 +17,14 @@ function App() {
         <Tabs> 
           <div label="What I've worked on"> 
             <div className="fade-in">
+              <Card
+                image={wwgfbt}
+                altText="link to wwgfbt project"
+                projectType="UI Design ∽ Front-end Dev"
+                projectTitle="WWGFBT"
+                projectDesc="Where we goin' for bubble tea? Providing effortless decision making when bubble tea cravings emerge."
+                href="https://wwgfbt.com"
+              />
               <p>Hi, this section is in progress right now, but here's a frog meme for the time being.</p>
               <img src={frog} alt="frog"/>
               </div>
