@@ -11,7 +11,6 @@ function App() {
 
   return (
     <div class="display-center">
-      <div className="nav"><h1 className="logo">CHRISTOPHER LO</h1></div>
       <div className="wrapper">
         <Header />
         <Tabs> 
@@ -31,6 +30,7 @@ function App() {
           </div> 
           <div label="Who I am"> 
             <div className="fade-in">
+              <h1 className="logo">CHRISTOPHER LO ∽ UX ENGINEER</h1>
               <p>I am a designer, an engineer, and a problem solver, but most importantly, I'd say I'm an overall pretty cool human being just like you. 😉</p>
               <p>Some things that excite me are design systems, accessibility, and creating moments of <span className="delight">delight</span>.</p>
               <p>I'm currently working on building enterprise solutions at <a href="https://linkedin.com/in/cleestofuh" target="_blank" rel="noreferrer">Linkedin</a> that help employees be more productive at scale.</p>
