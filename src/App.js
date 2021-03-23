@@ -3,7 +3,6 @@ import Header from './Header';
 import me from './images/me.png';
 import frog from './images/frog.jpg';
 import Tabs from './Tabs';
-import Card from './Card';
 
 
 function App() {
