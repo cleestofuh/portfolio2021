@@ -25,7 +25,7 @@ function App() {
                 href="https://wwgfbt.com"
               />
               <p>Hi, this section is in progress right now, but here's a frog meme for the time being.</p>
-              <img src={frog} alt="frog"/>
+              <img src={frog} alt="frog" id="frog"/>
               </div>
           </div> 
           <div label="Who I am"> 

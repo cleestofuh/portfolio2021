@@ -12,6 +12,9 @@
   --shadow: rgba(0, 0, 0, 0.2);
 }
 
+#frog {
+  width: 100%; 
+}
 html {
   width: 100%;
 }
