@@ -44,7 +44,7 @@ function App() {
             <div className="fade-in">
               <p>Let's talk about boba, coffee, design, fashion, fitness, frog memes, pc gaming, travel, or literally anything else!</p>
               <p>🍵 ∽ ☕ ∽ 🎨 ∽ 👘 ∽ 🏸 ∽ 🐸 ∽ 🎮 ∽ 🌎</p>
-              <p>Slide into my DMs on <a href="https://linkedin.com/in/cleestofuh" target="_blank" rel="noreferrer">Linkedin</a> or just shoot me an <a href="mailto: chrisedlo@gmail.com" target="_blank" rel="noopener">email</a>.</p>
+              <p>Slide into my DMs on <a href="https://linkedin.com/in/cleestofuh" target="_blank" rel="noreferrer">Linkedin</a> or just shoot me an <a href="mailto: chrisedlo@gmail.com" target="_blank" rel="noreffer">email</a>.</p>
             </div>
           </div> 
         </Tabs> 
